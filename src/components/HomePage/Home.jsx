@@ -8,6 +8,7 @@ import AirplayOutlinedIcon from '@mui/icons-material/AirplayOutlined';
 import Building from '../../assets/building.jpeg';
 import crm from '../../assets/crm.jpeg';
 import ecom from '../../assets/ecommerce.jpeg';
+import sam from '../../assets/sam.png';
 
 export default function Home() {
     return (
@@ -180,6 +181,39 @@ export default function Home() {
                         <div className='flex justify-center mt-15'>
                             <Button className="bg-[#411d33] text text-white text-xl px-6 py-3 border-2 border-[#56364a] shadow-inner rounded-[4px]">Explore Our Services</Button>
                         </div>
+                    </div>
+
+                    <div className='mt-35'>
+                        <div className='text text-white text-[52px] text-center'>
+                            What Our Clients Say About Us
+                        </div>
+                        <div className='text text-white text-[18px] text-center'>
+                            Worked With Experts See What People Say
+                        </div>
+
+                        {/* <div className='border border-white w-[70%]'>
+                        </div> */}
+                        <div className='mt-[10rem]'>
+                            <div className='flex justify-center'>
+                                <div>
+                                    <img src={sam} alt='Black and White Image' className='h-[217px] filter grayscale' />
+                                </div>
+                                <div className='w-[30rem] flex justify-center items-center'>
+                                    <div className='text text-white'>
+                                        <div className='text text-[20px] w-[23rem]'>
+                                            ”QuadX transformed our business with their CRM. Our sales team is more efficient than ever!”
+                                        </div>
+                                        <div className='text text-[16px] mt-5 font-medium'>
+                                            Talia Taylor
+                                        </div>
+                                        <div className='text text-[13px] mt-1'>
+                                            Digital Marketing Director @ Quantum
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
