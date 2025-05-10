@@ -1,14 +1,15 @@
 import { Button } from '@headlessui/react'
 import React from 'react'
-import graph from '../../assets/graph.png'
+import graph from '../assets/graph.png'
 import CodeIcon from '@mui/icons-material/Code';
 import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 import GppGoodOutlinedIcon from '@mui/icons-material/GppGoodOutlined';
 import AirplayOutlinedIcon from '@mui/icons-material/AirplayOutlined';
-import Building from '../../assets/building.jpeg';
-import crm from '../../assets/crm.jpeg';
-import ecom from '../../assets/ecommerce.jpeg';
-import sam from '../../assets/sam.png';
+import Building from '../assets/building.jpeg';
+import crm from '../assets/crm.jpeg';
+import ecom from '../assets/ecommerce.jpeg';
+import sam from '../assets/sam.png';
+import demo from '../assets/demo.png'
 
 export default function Home() {
     return (
@@ -193,7 +194,7 @@ export default function Home() {
 
                         {/* <div className='border border-white w-[70%]'>
                         </div> */}
-                        <div className='mt-[10rem]'>
+                        <div className='mt-[5rem]'>
                             <div className='flex justify-center'>
                                 <div>
                                     <img src={sam} alt='Black and White Image' className='h-[217px] filter grayscale' />
@@ -214,9 +215,31 @@ export default function Home() {
                             </div>
                         </div>
 
+                        <div className='mt-[8rem] flex justify-end'>
+                            <div className='flex justify-center items-center'>
+                                <div className='mr-[8rem]'>
+                                    <div className='text text-[70px] font-normal bg-clip-text text-transparent leading-none' style={{
+                                        backgroundImage: 'linear-gradient(to right, #f3a7d6 60%, #ebbe94 50%)',
+                                    }}>Ready to Elevate Your</div>
+                                    <div className='text text-[70px] font-normal bg-clip-text text-transparent leading-none' style={{
+                                        backgroundImage: 'linear-gradient(to right, #f3a7d6 60%, #ebbe94 50%)',
+                                    }}>Business with QuadX?</div>
+                                    <div className='text text-white text-[23px] w-[44rem] mt-[2rem]'>
+                                        Schedule a free consultation or demo to see how our solutions can empower your growth.
+                                    </div>
+                                    <div className='mt-[3rem]'>
+                                        <Button className="bg-[#1e0b17] text text-white text text-black text-xl px-6 py-3 rounded-[4px] mr-[1rem]">Schedule a demo</Button>
+                                        <Button className="bg-white text text-black text-xl px-6 py-3 rounded-[4px]">Talk to an expert</Button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src={demo} />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

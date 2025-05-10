@@ -1,6 +1,7 @@
 import './App.css'
-import Home from './components/HomePage/Home'
-import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <div className='bg-black'>
                 <Navbar/>
                 <Home/>
+                <Footer/>
             </div>
         </>
     )
