@@ -26,12 +26,12 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='text-center text-[75px] leading-[84px] mt-8'>
-                            <div className="text-white">Empowering Businesses</div>
+                            <div className="text-white">Mansoor Alam</div>
                             <div className="text-white">with Cutting-Edge IT Solutions!</div>
                         </div>
                         <div className='text-white text-[20px] flex justify-center'>
                             <div className='text-center w-[50rem] p-2'>
-                                From powerful CRM systems to innovative E-commerce solutions, QuadX delivers seamless technology to help businesses scale smarter.
+	    From powerful CRM systems to innovative E-commerce solutions, QuadX delivers seamless technology to help businesses scale smarter.
                             </div>
                         </div>
                         <div className='flex justify-center mt-3'>
